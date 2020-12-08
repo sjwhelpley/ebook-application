@@ -1,0 +1,136 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Forms */
+input[type=text],
+input[type=password],
+input[type=email] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0; 
+    border-bottom:1px solid #293241;
+}
+
+textarea {
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+}
+
+/*  Log-in */
+#login-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.login-form {
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Register */
+#register-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.register-form {
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.register-link {
+    text-align: center;
+    color: navy;
+}
+
+/* Search page */
+.search {
+    margin: 10px auto;
+}
+
+.search-bar {
+    width: 300px;
+}
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-result {
+    width: 200px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Book page */
+.book {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.review {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.add-review {
+    margin-bottom: 10px;
+}
+
+/* To Read List & Checked Out page */
+.list {
+    text-align: center;
+    margin: 10px;
+}
+
+.list-item {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.list-img {
+    height: 100%;
+    width: auto;
+}
+
+/* Checked Out page */
+hr {
+    width: 75%;
+    margin: 20px auto;
+}
+
+/* Style text when no information to display */
+.empty {
+    font-size: 22px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style back-link on book page */
+.back-link {
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* Style error messages */
+.error {
+    color: red;
+}
