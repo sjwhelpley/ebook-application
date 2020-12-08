@@ -1,9 +1,10 @@
 <?php
     // Connect to database
+    // Use your own credentials
     $host = "pacu.cs.pitt.edu";
-    $username = "sjw86";
-    $password = "Student_4179356";
-    $dbname = "sjw86";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
     $connection = mysqli_connect($host, $username, $password, $dbname);
     
@@ -12,5 +13,6 @@
     }
 
     // API key
-    $apiKey = "AIzaSyBApj6HqcuhyEY1rU6hp31385oO2s6HBw4";
+    // Get your own Google API key here
+    $apiKey = "";
 ?>
